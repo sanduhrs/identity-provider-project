@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7cfae49be901c29c45b9ae5c7f6ea601",
+    "content-hash": "b02b76ddbb24cccdcc0879fa810d619b",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -919,6 +919,38 @@
                 "source": "https://github.com/drupal/core-recommended/tree/9.2.6"
             },
             "time": "2021-09-14T22:07:47+00:00"
+        },
+        {
+            "name": "drupal/identity_provider",
+            "version": "1.0.x-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sanduhrs/drupal-identity-provider-profile.git",
+                "reference": "6a9fcb55c60414a63d7473232fc74892e50fe410"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sanduhrs/drupal-identity-provider-profile/zipball/6a9fcb55c60414a63d7473232fc74892e50fe410",
+                "reference": "6a9fcb55c60414a63d7473232fc74892e50fe410",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "drupal-profile",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Stefan Auditor",
+                    "email": "stefan@auditor.email"
+                }
+            ],
+            "description": "The Open Source Identity Provider install profile.",
+            "support": {
+                "source": "https://github.com/sanduhrs/drupal-identity-provider-profile/tree/1.0.x",
+                "issues": "https://github.com/sanduhrs/drupal-identity-provider-profile/issues"
+            },
+            "time": "2021-09-28T15:49:00+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -8608,7 +8640,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "drupal/identity_provider": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
