@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "64dfd61677c3736525d4b51286408516",
+    "content-hash": "acd61cbb398e7b6c035dfcf128a5a72c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -2469,31 +2469,6 @@
             "time": "2021-09-14T22:07:47+00:00"
         },
         {
-            "name": "drupal/cors",
-            "version": "1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/sanduhrs/drupal-cors.git",
-                "reference": "fddfc55c6f344cc823cb0ea279146d9e2a79b177"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/sanduhrs/drupal-cors/zipball/fddfc55c6f344cc823cb0ea279146d9e2a79b177",
-                "reference": "fddfc55c6f344cc823cb0ea279146d9e2a79b177",
-                "shasum": ""
-            },
-            "require-dev": {
-                "drupal/coder": "dev-7.x-2.x",
-                "squizlabs/php_codesniffer": "~1.5"
-            },
-            "type": "library",
-            "support": {
-                "source": "https://github.com/sanduhrs/drupal-cors/tree/1.0.0",
-                "issues": "https://github.com/sanduhrs/drupal-cors/issues"
-            },
-            "time": "2021-09-28T18:23:30+00:00"
-        },
-        {
             "name": "drupal/csp",
             "version": "1.15.0",
             "source": {
@@ -3186,16 +3161,16 @@
         },
         {
             "name": "drupal/identity_provider",
-            "version": "1.0.0",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sanduhrs/drupal-identity-provider-profile.git",
-                "reference": "3e2cb52fe07b66c2d4863927e7db5779e7997474"
+                "reference": "10b1881b64e545918cfba9a30163db1e7e1c5815"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sanduhrs/drupal-identity-provider-profile/zipball/3e2cb52fe07b66c2d4863927e7db5779e7997474",
-                "reference": "3e2cb52fe07b66c2d4863927e7db5779e7997474",
+                "url": "https://api.github.com/repos/sanduhrs/drupal-identity-provider-profile/zipball/10b1881b64e545918cfba9a30163db1e7e1c5815",
+                "reference": "10b1881b64e545918cfba9a30163db1e7e1c5815",
                 "shasum": ""
             },
             "require": {
@@ -3261,10 +3236,10 @@
             ],
             "description": "The Open Source Identity Provider install profile.",
             "support": {
-                "source": "https://github.com/sanduhrs/drupal-identity-provider-profile/tree/1.0.0",
+                "source": "https://github.com/sanduhrs/drupal-identity-provider-profile/tree/1.2.0",
                 "issues": "https://github.com/sanduhrs/drupal-identity-provider-profile/issues"
             },
-            "time": "2021-09-29T15:41:58+00:00"
+            "time": "2021-09-29T16:15:57+00:00"
         },
         {
             "name": "drupal/jsonapi_extras",
