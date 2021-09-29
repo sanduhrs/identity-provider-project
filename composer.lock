@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "186e08e9a1d7882d3427fb0f26a2e52e",
+    "content-hash": "64dfd61677c3736525d4b51286408516",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -3186,16 +3186,16 @@
         },
         {
             "name": "drupal/identity_provider",
-            "version": "1.0.x-dev",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sanduhrs/drupal-identity-provider-profile.git",
-                "reference": "bf4164711d3ee8a8be5492ac449b2810570c4ba1"
+                "reference": "3e2cb52fe07b66c2d4863927e7db5779e7997474"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sanduhrs/drupal-identity-provider-profile/zipball/bf4164711d3ee8a8be5492ac449b2810570c4ba1",
-                "reference": "bf4164711d3ee8a8be5492ac449b2810570c4ba1",
+                "url": "https://api.github.com/repos/sanduhrs/drupal-identity-provider-profile/zipball/3e2cb52fe07b66c2d4863927e7db5779e7997474",
+                "reference": "3e2cb52fe07b66c2d4863927e7db5779e7997474",
                 "shasum": ""
             },
             "require": {
@@ -3249,7 +3249,6 @@
                 "web-auth/webauthn-lib": "^3.3",
                 "yubico/u2flib-server": "^1.0"
             },
-            "default-branch": true,
             "type": "drupal-profile",
             "license": [
                 "GPL-2.0-or-later"
@@ -3262,10 +3261,10 @@
             ],
             "description": "The Open Source Identity Provider install profile.",
             "support": {
-                "source": "https://github.com/sanduhrs/drupal-identity-provider-profile/tree/1.0.x",
+                "source": "https://github.com/sanduhrs/drupal-identity-provider-profile/tree/1.0.0",
                 "issues": "https://github.com/sanduhrs/drupal-identity-provider-profile/issues"
             },
-            "time": "2021-09-28T18:03:38+00:00"
+            "time": "2021-09-29T15:41:58+00:00"
         },
         {
             "name": "drupal/jsonapi_extras",
@@ -18562,9 +18561,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "drupal/identity_provider": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],
