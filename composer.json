@@ -15,10 +15,6 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/sanduhrs/drupal-cors"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/sanduhrs/drupal-openid_connect_discovery"
         },
         {
@@ -39,7 +35,6 @@
         "cweagans/composer-patches": "^1.7",
         "drupal/core-composer-scaffold": "^9.1",
         "drupal/core-recommended": "^9.1",
-        "drupal/cors": "^1.0",
         "drupal/identity_provider": "^1.0",
         "drupal/openid_connect_discovery": "^1.0",
         "drupal/openid_connect_dynamic_registration": "^1.0"
