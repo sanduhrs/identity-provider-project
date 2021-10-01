@@ -37,7 +37,8 @@
         "drupal/core-recommended": "^9.2",
         "drupal/identity_provider": "^1.5",
         "drupal/openid_connect_discovery": "^1.0",
-        "drupal/openid_connect_dynamic_registration": "^1.0"
+        "drupal/openid_connect_dynamic_registration": "^1.0",
+        "swagger-api/swagger-ui": "^3.52"
     },
     "conflict": {
         "drupal/drupal": "*"
@@ -58,6 +59,7 @@
                 "type:drupal-core"
             ],
             "web/libraries/{$name}": [
+                "swagger-api/swagger-ui",
                 "type:drupal-library"
             ],
             "web/modules/contrib/{$name}": [
