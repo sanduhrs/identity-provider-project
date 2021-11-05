@@ -91,7 +91,8 @@
             "drupal/simple_oauth": {
                 "Issue #3182418: Shouldn't the /oauth/jwks endpoint be accessible without authentication?": "https://git.drupalcode.org/project/simple_oauth/-/merge_requests/11.diff",
                 "Issue #3049449: Provide automated key rotation": "https://git.drupalcode.org/project/simple_oauth/-/merge_requests/12.diff",
-                "Issue #3225751: Authorization endpoint should return error in case of missing response_type parameter": "https://git.drupalcode.org/project/simple_oauth/-/merge_requests/13.diff"
+                "Issue #3225751: Authorization endpoint should return error in case of missing response_type parameter": "https://git.drupalcode.org/project/simple_oauth/-/merge_requests/13.diff",
+                "Issue #3247846: Rename scopes to scope in JWT payload": "https://www.drupal.org/files/issues/2021-11-05/3247846-2-rename-scopes-to-scop-in-jwt-payload.patch"
             }
         }
     }
