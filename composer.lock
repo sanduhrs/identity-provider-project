@@ -3125,16 +3125,16 @@
         },
         {
             "name": "drupal/identity_provider",
-            "version": "1.11.0",
+            "version": "1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sanduhrs/drupal-identity-provider-profile.git",
-                "reference": "1fcd3880dce6944b5023b1e3bff9edef6dabed2f"
+                "reference": "42a5d4c278a836cac61ee65c9e5c8385b92d57ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sanduhrs/drupal-identity-provider-profile/zipball/1fcd3880dce6944b5023b1e3bff9edef6dabed2f",
-                "reference": "1fcd3880dce6944b5023b1e3bff9edef6dabed2f",
+                "url": "https://api.github.com/repos/sanduhrs/drupal-identity-provider-profile/zipball/42a5d4c278a836cac61ee65c9e5c8385b92d57ed",
+                "reference": "42a5d4c278a836cac61ee65c9e5c8385b92d57ed",
                 "shasum": ""
             },
             "require": {
@@ -3202,10 +3202,10 @@
             ],
             "description": "The Open Source Identity Provider install profile.",
             "support": {
-                "source": "https://github.com/sanduhrs/drupal-identity-provider-profile/tree/1.11.0",
+                "source": "https://github.com/sanduhrs/drupal-identity-provider-profile/tree/1.12.0",
                 "issues": "https://github.com/sanduhrs/drupal-identity-provider-profile/issues"
             },
-            "time": "2021-11-25T08:55:13+00:00"
+            "time": "2021-11-25T09:18:36+00:00"
         },
         {
             "name": "drupal/jsonapi_entity_filter_override",
