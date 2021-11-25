@@ -3125,16 +3125,16 @@
         },
         {
             "name": "drupal/identity_provider",
-            "version": "1.9.0",
+            "version": "1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sanduhrs/drupal-identity-provider-profile.git",
-                "reference": "7d94d3f521c7f1be6d6c6ce4c89d7adb586177f7"
+                "reference": "a2c036a8d91029066849baacb4fab311e0eef225"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sanduhrs/drupal-identity-provider-profile/zipball/7d94d3f521c7f1be6d6c6ce4c89d7adb586177f7",
-                "reference": "7d94d3f521c7f1be6d6c6ce4c89d7adb586177f7",
+                "url": "https://api.github.com/repos/sanduhrs/drupal-identity-provider-profile/zipball/a2c036a8d91029066849baacb4fab311e0eef225",
+                "reference": "a2c036a8d91029066849baacb4fab311e0eef225",
                 "shasum": ""
             },
             "require": {
@@ -3202,10 +3202,10 @@
             ],
             "description": "The Open Source Identity Provider install profile.",
             "support": {
-                "source": "https://github.com/sanduhrs/drupal-identity-provider-profile/tree/1.9.0",
+                "source": "https://github.com/sanduhrs/drupal-identity-provider-profile/tree/1.10.0",
                 "issues": "https://github.com/sanduhrs/drupal-identity-provider-profile/issues"
             },
-            "time": "2021-11-24T11:44:31+00:00"
+            "time": "2021-11-25T06:08:34+00:00"
         },
         {
             "name": "drupal/jsonapi_entity_filter_override",
@@ -7158,16 +7158,16 @@
         },
         {
             "name": "mglaman/phpstan-drupal",
-            "version": "1.0.3",
+            "version": "1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mglaman/phpstan-drupal.git",
-                "reference": "20b043c99d1324e94ead226657fca936486acba4"
+                "reference": "337bc362fe4fe086534ea157f25f5f1dd415d522"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/20b043c99d1324e94ead226657fca936486acba4",
-                "reference": "20b043c99d1324e94ead226657fca936486acba4",
+                "url": "https://api.github.com/repos/mglaman/phpstan-drupal/zipball/337bc362fe4fe086534ea157f25f5f1dd415d522",
+                "reference": "337bc362fe4fe086534ea157f25f5f1dd415d522",
                 "shasum": ""
             },
             "require": {
@@ -7193,7 +7193,7 @@
             "type": "phpstan-extension",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0-dev"
+                    "dev-main": "1.0-dev"
                 },
                 "installer-paths": {
                     "tests/fixtures/drupal/core": [
@@ -7239,7 +7239,7 @@
             "description": "Drupal extension and rules for PHPStan",
             "support": {
                 "issues": "https://github.com/mglaman/phpstan-drupal/issues",
-                "source": "https://github.com/mglaman/phpstan-drupal/tree/1.0.3"
+                "source": "https://github.com/mglaman/phpstan-drupal/tree/1.1.0"
             },
             "funding": [
                 {
@@ -7255,7 +7255,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-12T19:45:49+00:00"
+            "time": "2021-11-24T22:27:00+00:00"
         },
         {
             "name": "mnsami/composer-custom-directory-installer",
