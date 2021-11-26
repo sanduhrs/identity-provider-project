@@ -3125,16 +3125,16 @@
         },
         {
             "name": "drupal/identity_provider",
-            "version": "1.13.0",
+            "version": "1.14.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sanduhrs/drupal-identity-provider-profile.git",
-                "reference": "a2850db7d26b25e3b64058f17a389e04da3e01d8"
+                "reference": "d2adc0c507e4245fc8e62e3a3a9d821cdb98fc7f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sanduhrs/drupal-identity-provider-profile/zipball/a2850db7d26b25e3b64058f17a389e04da3e01d8",
-                "reference": "a2850db7d26b25e3b64058f17a389e04da3e01d8",
+                "url": "https://api.github.com/repos/sanduhrs/drupal-identity-provider-profile/zipball/d2adc0c507e4245fc8e62e3a3a9d821cdb98fc7f",
+                "reference": "d2adc0c507e4245fc8e62e3a3a9d821cdb98fc7f",
                 "shasum": ""
             },
             "require": {
@@ -3202,10 +3202,10 @@
             ],
             "description": "The Open Source Identity Provider install profile.",
             "support": {
-                "source": "https://github.com/sanduhrs/drupal-identity-provider-profile/tree/1.13.0",
+                "source": "https://github.com/sanduhrs/drupal-identity-provider-profile/tree/1.14.0",
                 "issues": "https://github.com/sanduhrs/drupal-identity-provider-profile/issues"
             },
-            "time": "2021-11-25T09:27:47+00:00"
+            "time": "2021-11-26T19:54:34+00:00"
         },
         {
             "name": "drupal/jsonapi_entity_filter_override",
@@ -7382,16 +7382,16 @@
         },
         {
             "name": "nette/neon",
-            "version": "v3.3.1",
+            "version": "v3.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/neon.git",
-                "reference": "1f4e5f6a30bf45b6c2c932be7396ea70692ee607"
+                "reference": "54b287d8c2cdbe577b02e28ca1713e275b05ece2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/neon/zipball/1f4e5f6a30bf45b6c2c932be7396ea70692ee607",
-                "reference": "1f4e5f6a30bf45b6c2c932be7396ea70692ee607",
+                "url": "https://api.github.com/repos/nette/neon/zipball/54b287d8c2cdbe577b02e28ca1713e275b05ece2",
+                "reference": "54b287d8c2cdbe577b02e28ca1713e275b05ece2",
                 "shasum": ""
             },
             "require": {
@@ -7401,7 +7401,7 @@
             "require-dev": {
                 "nette/tester": "^2.0",
                 "phpstan/phpstan": "^0.12",
-                "tracy/tracy": "^2.8.8"
+                "tracy/tracy": "^2.7"
             },
             "bin": [
                 "bin/neon-lint"
@@ -7444,9 +7444,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/neon/issues",
-                "source": "https://github.com/nette/neon/tree/v3.3.1"
+                "source": "https://github.com/nette/neon/tree/v3.3.2"
             },
-            "time": "2021-11-09T01:00:15+00:00"
+            "time": "2021-11-25T15:57:41+00:00"
         },
         {
             "name": "nette/utils",
@@ -8192,16 +8192,16 @@
         },
         {
             "name": "phpmailer/phpmailer",
-            "version": "v6.5.1",
+            "version": "v6.5.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
-                "reference": "dd803df5ad7492e1b40637f7ebd258fee5ca7355"
+                "reference": "baeb7cde6b60b1286912690ab0693c7789a31e71"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/dd803df5ad7492e1b40637f7ebd258fee5ca7355",
-                "reference": "dd803df5ad7492e1b40637f7ebd258fee5ca7355",
+                "url": "https://api.github.com/repos/PHPMailer/PHPMailer/zipball/baeb7cde6b60b1286912690ab0693c7789a31e71",
+                "reference": "baeb7cde6b60b1286912690ab0693c7789a31e71",
                 "shasum": ""
             },
             "require": {
@@ -8258,7 +8258,7 @@
             "description": "PHPMailer is a full-featured email creation and transfer class for PHP",
             "support": {
                 "issues": "https://github.com/PHPMailer/PHPMailer/issues",
-                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.5.1"
+                "source": "https://github.com/PHPMailer/PHPMailer/tree/v6.5.3"
             },
             "funding": [
                 {
@@ -8266,7 +8266,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-08-18T09:14:16+00:00"
+            "time": "2021-11-25T16:34:11+00:00"
         },
         {
             "name": "phpstan/phpstan",
