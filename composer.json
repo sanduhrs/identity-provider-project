@@ -102,7 +102,8 @@
                 "Issue #3182418: Shouldn't the /oauth/jwks endpoint be accessible without authentication?": "https://git.drupalcode.org/project/simple_oauth/-/merge_requests/11.diff",
                 "Issue #3049449: Provide automated key rotation": "https://git.drupalcode.org/project/simple_oauth/-/merge_requests/12.diff",
                 "Issue #3225751: Authorization endpoint should return error in case of missing response_type parameter": "https://git.drupalcode.org/project/simple_oauth/-/merge_requests/13.diff",
-                "Issue #3257293: Non-registered claims error after upgrading from 5.0.5 to 5.2.0.": "https://www.drupal.org/files/issues/2022-03-24/simple_oauth-non-registered-claims-error-3257293-11.patch"
+                "Issue #3257293: Non-registered claims error after upgrading from 5.0.5 to 5.2.0.": "https://www.drupal.org/files/issues/2022-03-24/simple_oauth-non-registered-claims-error-3257293-11.patch",
+                "Issue #3313494: Private ISS claim": "https://www.drupal.org/files/issues/2022-10-04/3313494-private-iss-claim.patch"
             }
         }
     }
