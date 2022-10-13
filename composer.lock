@@ -2118,16 +2118,16 @@
         },
         {
             "name": "drupal/identity_provider",
-            "version": "1.21.0",
+            "version": "1.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sanduhrs/drupal-identity-provider-profile.git",
-                "reference": "233e66980bd80138f29cb39833e4cf36c7bda544"
+                "reference": "057ef428f1c84ecd4586ff0febf4621da3e8a2e6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sanduhrs/drupal-identity-provider-profile/zipball/233e66980bd80138f29cb39833e4cf36c7bda544",
-                "reference": "233e66980bd80138f29cb39833e4cf36c7bda544",
+                "url": "https://api.github.com/repos/sanduhrs/drupal-identity-provider-profile/zipball/057ef428f1c84ecd4586ff0febf4621da3e8a2e6",
+                "reference": "057ef428f1c84ecd4586ff0febf4621da3e8a2e6",
                 "shasum": ""
             },
             "require": {
@@ -2168,7 +2168,7 @@
                 "drupal/simple_oauth_claims": "^1.0",
                 "drupal/simplesamlphp_auth": "^3.2",
                 "drupal/tagged_routes": "^1.0",
-                "drupal/tfa": "@dev",
+                "drupal/tfa": "^1.0@dev",
                 "drupal/webauthn": "@dev",
                 "drupal/webhooks": "@dev",
                 "ext-json": "*",
@@ -2192,10 +2192,10 @@
             ],
             "description": "The Open Source Identity Provider install profile.",
             "support": {
-                "source": "https://github.com/sanduhrs/drupal-identity-provider-profile/tree/1.21.0",
+                "source": "https://github.com/sanduhrs/drupal-identity-provider-profile/tree/1.22.0",
                 "issues": "https://github.com/sanduhrs/drupal-identity-provider-profile/issues"
             },
-            "time": "2022-10-10T08:40:42+00:00"
+            "time": "2022-10-13T18:58:06+00:00"
         },
         {
             "name": "drupal/jsonapi_entity_filter_override",
