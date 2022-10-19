@@ -29,6 +29,7 @@
         "drupal/core-recommended": "^9.2",
         "drupal/drush_language": "^1.0@RC",
         "drupal/identity_provider": "^1.6",
+        "drush/drush": "^11.2",
         "swagger-api/swagger-ui": "^3.52"
     },
     "conflict": {
