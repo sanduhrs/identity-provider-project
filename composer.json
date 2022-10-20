@@ -47,7 +47,8 @@
             "simplesamlphp/composer-module-installer": true,
             "drupal/core-composer-scaffold": true,
             "mnsami/composer-custom-directory-installer": true,
-            "cweagans/composer-patches": true
+            "cweagans/composer-patches": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true
         }
     },
     "extra": {
@@ -94,15 +95,19 @@
             ]
         },
         "patches": {
+            "drupal/ga_login": {
+                "Issue #3316365: Fatal error: Declaration must be compatible": "https://www.drupal.org/files/issues/2022-10-19/3316365-2-Declaration-must-be-compatible.patch"
+            },
             "drupal/rate_limits": {
-                "Error: Call to a member function addMessage() when deleting rate limit": "https://git.drupalcode.org/project/rate_limits/-/merge_requests/1.diff"
+                "Issue #3225649: Error: Call to a member function addMessage() when deleting rate limit": "https://git.drupalcode.org/project/rate_limits/-/merge_requests/1.diff"
             },
             "drupal/simple_oauth": {
-                "Issue #3257293: Registered claims error after upgrading from 5.0.5 to 5.2.0.": "https://git.drupalcode.org/project/simple_oauth/-/merge_requests/64/diffs.patch",
-                "Issue #3182418: Shouldn't the /oauth/jwks endpoint be accessible without authentication?": "https://git.drupalcode.org/project/simple_oauth/-/merge_requests/11.diff",
-                "Issue #3049449: Provide automated key rotation": "https://git.drupalcode.org/project/simple_oauth/-/merge_requests/12.diff",
-                "Issue #3225751: Authorization endpoint should return error in case of missing response_type parameter": "https://git.drupalcode.org/project/simple_oauth/-/merge_requests/13.diff"
+                "Issue #3049449: Provide automated key rotation": "https://git.drupalcode.org/project/simple_oauth/-/merge_requests/12.diff"
             }
         }
+    },
+    "require-dev": {
+        "drupal/core-dev": "^9.4",
+        "phpspec/prophecy-phpunit": "^2"
     }
 }
