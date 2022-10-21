@@ -23,12 +23,14 @@
         }
     ],
     "require": {
+        "ext-json": "*",
+        "ext-openssl": "*",
         "composer/installers": "^1.9",
         "cweagans/composer-patches": "^1.7",
         "drupal/core-composer-scaffold": "^9.2",
         "drupal/core-recommended": "^9.2",
         "drupal/drush_language": "^1.0@RC",
-        "drupal/identity_provider": "^1.6",
+        "drupal/identity_provider": "^1.25",
         "drush/drush": "^11.2",
         "swagger-api/swagger-ui": "^3.52"
     },
@@ -102,7 +104,10 @@
                 "Issue #3225649: Error: Call to a member function addMessage() when deleting rate limit": "https://git.drupalcode.org/project/rate_limits/-/merge_requests/1.diff"
             },
             "drupal/simple_oauth": {
-                "Issue #3049449: Provide automated key rotation": "https://git.drupalcode.org/project/simple_oauth/-/merge_requests/12.diff"
+                "Issue #3257293: Registered claims error after upgrading from 5.0.5 to 5.2.0": "https://git.drupalcode.org/project/simple_oauth/-/merge_requests/64.diff",
+                "Issue #3182418: /oauth/jwks endpoint should be accessible without authentication": "https://git.drupalcode.org/project/simple_oauth/-/merge_requests/11.diff",
+                "Issue #3049449: Provide automated key rotation": "https://git.drupalcode.org/project/simple_oauth/-/merge_requests/12.diff",
+                "Issue #3225751: Authorization endpoint should return error in case of missing response_type parameter": "https://git.drupalcode.org/project/simple_oauth/-/merge_requests/13.diff"
             }
         }
     },

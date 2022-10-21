@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b159c2dfa882bec9d4a1745b0c8ec3e8",
+    "content-hash": "32767b054bc6ca00f5a9a71084aaf176",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -938,16 +938,16 @@
         },
         {
             "name": "consolidation/annotated-command",
-            "version": "4.5.6",
+            "version": "4.5.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/consolidation/annotated-command.git",
-                "reference": "3968070538761628546270935f0733a0cc408e1f"
+                "reference": "3785525bfc40d8230452f4c07db8a7bf0530d8f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/3968070538761628546270935f0733a0cc408e1f",
-                "reference": "3968070538761628546270935f0733a0cc408e1f",
+                "url": "https://api.github.com/repos/consolidation/annotated-command/zipball/3785525bfc40d8230452f4c07db8a7bf0530d8f3",
+                "reference": "3785525bfc40d8230452f4c07db8a7bf0530d8f3",
                 "shasum": ""
             },
             "require": {
@@ -988,9 +988,9 @@
             "description": "Initialize Symfony Console commands from annotated command class methods.",
             "support": {
                 "issues": "https://github.com/consolidation/annotated-command/issues",
-                "source": "https://github.com/consolidation/annotated-command/tree/4.5.6"
+                "source": "https://github.com/consolidation/annotated-command/tree/4.5.7"
             },
-            "time": "2022-06-22T20:17:12+00:00"
+            "time": "2022-10-20T11:00:10+00:00"
         },
         {
             "name": "consolidation/config",
@@ -2786,76 +2786,6 @@
             }
         },
         {
-            "name": "drupal/ga_login",
-            "version": "1.0.0-alpha6",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/ga_login.git",
-                "reference": "8.x-1.0-alpha6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/ga_login-8.x-1.0-alpha6.zip",
-                "reference": "8.x-1.0-alpha6",
-                "shasum": "0cca42208142b1fa0e7e7778a284ca1d0a45a4ba"
-            },
-            "require": {
-                "chillerlan/php-qrcode": "^1.0.9 || ^2.0 || ^3.2 || ^4.0",
-                "christian-riesen/otp": "^2.1",
-                "drupal/core": "^8 || ^9",
-                "drupal/tfa": "^1.0"
-            },
-            "require-dev": {
-                "drupal/tfa": "1.x-dev"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-1.0-alpha6",
-                    "datestamp": "1607880195",
-                    "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Alpha releases are not covered by Drupal security advisories."
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "attiks",
-                    "homepage": "https://www.drupal.org/user/105002"
-                },
-                {
-                    "name": "daggerhart",
-                    "homepage": "https://www.drupal.org/user/167806"
-                },
-                {
-                    "name": "jcnventura",
-                    "homepage": "https://www.drupal.org/user/122464"
-                },
-                {
-                    "name": "Jelle_S",
-                    "homepage": "https://www.drupal.org/user/829198"
-                },
-                {
-                    "name": "nerdstein",
-                    "homepage": "https://www.drupal.org/user/1557710"
-                },
-                {
-                    "name": "therealssj",
-                    "homepage": "https://www.drupal.org/user/3408074"
-                }
-            ],
-            "description": "TFA plugins for Hmac-Based One Time Passwords & Time Based One Time Password with recovery codes as fallback.",
-            "homepage": "https://www.drupal.org/project/ga_login",
-            "support": {
-                "source": "https://git.drupalcode.org/project/ga_login"
-            }
-        },
-        {
             "name": "drupal/gin",
             "version": "3.0.0-beta5",
             "source": {
@@ -3155,16 +3085,16 @@
         },
         {
             "name": "drupal/identity_provider",
-            "version": "1.24.0",
+            "version": "1.26.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sanduhrs/drupal-identity-provider-profile.git",
-                "reference": "040f2b0f8c52fefd059851e2efc3192fba5daed8"
+                "reference": "dda7caad930a5e50b50097e6f9fd2e1467247e73"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sanduhrs/drupal-identity-provider-profile/zipball/040f2b0f8c52fefd059851e2efc3192fba5daed8",
-                "reference": "040f2b0f8c52fefd059851e2efc3192fba5daed8",
+                "url": "https://api.github.com/repos/sanduhrs/drupal-identity-provider-profile/zipball/dda7caad930a5e50b50097e6f9fd2e1467247e73",
+                "reference": "dda7caad930a5e50b50097e6f9fd2e1467247e73",
                 "shasum": ""
             },
             "require": {
@@ -3175,7 +3105,6 @@
                 "drupal/csp": "^1.15",
                 "drupal/encrypt": "^3.0",
                 "drupal/flood_control": "^2.1",
-                "drupal/ga_login": "^1.0@alpha",
                 "drupal/gin": "@dev",
                 "drupal/gin_lb": "@dev",
                 "drupal/gin_login": "@dev",
@@ -3204,11 +3133,11 @@
                 "drupal/restui": "^1.20",
                 "drupal/schemata": "@dev",
                 "drupal/schemata_json_schema": "@dev",
-                "drupal/simple_oauth": "^6.0@beta",
+                "drupal/simple_oauth": "^5.2",
                 "drupal/simple_oauth_claims": "^1.0",
                 "drupal/simplesamlphp_auth": "^3.2",
                 "drupal/tagged_routes": "^1.0",
-                "drupal/tfa": "1.0-alpha8",
+                "drupal/tfa": "^1@alpha",
                 "drupal/webauthn": "@dev",
                 "drupal/webhooks": "@dev",
                 "ext-json": "*",
@@ -3232,10 +3161,10 @@
             ],
             "description": "The Open Source Identity Provider install profile.",
             "support": {
-                "source": "https://github.com/sanduhrs/drupal-identity-provider-profile/tree/1.24.0",
+                "source": "https://github.com/sanduhrs/drupal-identity-provider-profile/tree/1.26.0",
                 "issues": "https://github.com/sanduhrs/drupal-identity-provider-profile/issues"
             },
-            "time": "2022-10-20T10:42:05+00:00"
+            "time": "2022-10-21T12:17:01+00:00"
         },
         {
             "name": "drupal/jsonapi_entity_filter_override",
@@ -4726,21 +4655,21 @@
         },
         {
             "name": "drupal/simple_oauth",
-            "version": "6.0.0-beta1",
+            "version": "5.2.0",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/simple_oauth.git",
-                "reference": "6.0.0-beta1"
+                "reference": "5.2.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/simple_oauth-6.0.0-beta1.zip",
-                "reference": "6.0.0-beta1",
-                "shasum": "b097547b5f43b7a7f295f739f05b0bc0dfdbed44"
+                "url": "https://ftp.drupal.org/files/projects/simple_oauth-5.2.0.zip",
+                "reference": "5.2.0",
+                "shasum": "3d2b0f38284190a59e4ac99d6f5d4af424c4d19f"
             },
             "require": {
                 "drupal/consumers": "^1.2",
-                "drupal/core": "^9 || ^10",
+                "drupal/core": "^8 || ^9",
                 "lcobucci/jwt": "^4",
                 "league/oauth2-server": "^8.3",
                 "php": ">=7.4",
@@ -4752,22 +4681,22 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "6.0.0-beta1",
-                    "datestamp": "1665558010",
+                    "version": "5.2.0",
+                    "datestamp": "1641403293",
                     "security-coverage": {
-                        "status": "not-covered",
-                        "message": "Beta releases are not covered by Drupal security advisories."
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
                     }
                 },
                 "drush": {
                     "services": {
-                        "drush.services.yml": "^9 || ^10"
+                        "drush.services.yml": "^9"
                     }
                 }
             },
             "notification-url": "https://packages.drupal.org/8/downloads",
             "license": [
-                "GPL-2.0-or-later"
+                "GPL-2.0+"
             ],
             "authors": [
                 {
@@ -4955,19 +4884,21 @@
         },
         {
             "name": "drupal/tfa",
-            "version": "1.0.0-alpha8",
+            "version": "1.0.0-alpha10",
             "source": {
                 "type": "git",
                 "url": "https://git.drupalcode.org/project/tfa.git",
-                "reference": "8.x-1.0-alpha8"
+                "reference": "8.x-1.0-alpha10"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/tfa-8.x-1.0-alpha8.zip",
-                "reference": "8.x-1.0-alpha8",
-                "shasum": "22cde00430097884db324d9528e5468b85d554ca"
+                "url": "https://ftp.drupal.org/files/projects/tfa-8.x-1.0-alpha10.zip",
+                "reference": "8.x-1.0-alpha10",
+                "shasum": "823ad1c747b36ed6c46c1200fdafdc0b64dbfc12"
             },
             "require": {
+                "chillerlan/php-qrcode": "^1.0.9 || ^2.0 || ^3.2 || ^4.0",
+                "christian-riesen/otp": "^2.1",
                 "drupal/core": "^8 || ^9",
                 "drupal/encrypt": "~3.0",
                 "php": ">=7.0"
@@ -4980,8 +4911,8 @@
             "type": "drupal-module",
             "extra": {
                 "drupal": {
-                    "version": "8.x-1.0-alpha8",
-                    "datestamp": "1631825069",
+                    "version": "8.x-1.0-alpha10",
+                    "datestamp": "1666333465",
                     "security-coverage": {
                         "status": "not-covered",
                         "message": "Alpha releases are not covered by Drupal security advisories."
@@ -4989,7 +4920,7 @@
                 },
                 "drush": {
                     "services": {
-                        "drush.services.yml": "^9"
+                        "drush.services.yml": "^9 || ^10 || ^11"
                     }
                 }
             },
@@ -18995,7 +18926,10 @@
     },
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-json": "*",
+        "ext-openssl": "*"
+    },
     "platform-dev": [],
     "platform-overrides": {
         "php": "8.1"
