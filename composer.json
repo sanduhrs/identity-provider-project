@@ -46,7 +46,6 @@
         },
         "allow-plugins": {
             "composer/installers": true,
-            "simplesamlphp/composer-module-installer": true,
             "drupal/core-composer-scaffold": true,
             "mnsami/composer-custom-directory-installer": true,
             "cweagans/composer-patches": true,
@@ -113,6 +112,8 @@
     },
     "require-dev": {
         "drupal/core-dev": "^9.4",
-        "phpspec/prophecy-phpunit": "^2"
+        "phpspec/prophecy-phpunit": "^2",
+        "sensiolabs/security-checker": "^6.0",
+        "weitzman/drupal-test-traits": "^1.6"
     }
 }
